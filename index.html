@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <title>Paulo Vicente</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paulo Vicente's Portfolio" />
+
+    <meta property="og:title" content="Paulo Vicente" />
+    <meta property="og:description" content="Paulo Vicente's Portfolio." />
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/image/logo.svg" type="image/png" />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="l-header">
+        <!-- navbar -->
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><img class="nav__img" id="navlogo" src="assets/image/logo.svg"
+                        alt="Logo Paulo Vicente">
+                    <p>&lt;paulo-vicente /&gt;</p>
+                </a>
+            </div>
+            <!-- nav menu -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><i class='bx bxs-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <!-- nav menu mobile icon -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- background stars-->
+        <div>
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+        <!-- back to top button -->
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i>Top</button>
+        <!-- home -->
+        <section class="home bd-grid" id="home">
+            <!-- title & contact button -->
+            <div class="home__data">
+                <h1 class="home__title">Hi, I'm <span class="home__title-color">Paulo Vicente.</span><br><span
+                        class="spin"></span>.</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <!-- social icons -->
+            <div class="home__social">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/paulo-vicente-6abab0198" target="_blank"
+                    class="home__social-icon"><i class='fab fa-linkedin-in'></i></a>
+                <a rel="noreferrer" href="https://github.com/0xb0b1" target="_blank" class="home__social-icon"><i
+                        class='fab fa-github'></i></a>
+                <a rel="noreferrer" href="mailto:vcente82@gmail.com" target="_blank" class="home__social-icon"><i
+                        class='far fa-envelope'></i></a>
+                <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5593992456999" target="_blank"
+                    class="home__social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <!-- logo -->
+            <div class="home__img" id="logo"> </div>
+        </section>
+        <!-- about -->
+        <section class="send section" id="about">
+            <div class="send__container">
+                <div class="bd-container bd-grid">
+                    <div class="send__content about__text">
+                        <h2 class="section-title-center send__title">About</h2>
+                        <p class="send__description"> Hey there, I'm a Self-Taught Web Developer who lives in Brasil.
+                            I'm Currently doing Front End stuff with the JavaScript stack (ReactJS).</p>
+                        <p class="send__description">
+                            I have a serious passion for Animation, Illustration, UIs, JavaScript, Functional
+                            Programming, static typed languages and Category Theory.
+
+                        </p>
+                    </div>
+
+                    <div class="send__img">
+                        <table class="infome">
+                            <tr>
+                                <td class="me"><i class="fas fa-user"></i></td>
+                                <td class="me">
+                                    <p>Paulo Vicente</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="me"><i class="fas fa-volume-up"></i></td>
+                                <td class="me">
+                                    <p>Portuguese & English</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="me"><i class="fas fa-map-marker-alt"></i></td>
+                                <td class="me">
+                                    <p>Pará, Brasil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Projets-->
+        <section class="work section" id="projects">
+            <h2>My Work</h2>
+            <article>
+                <div class="work__img">
+                    <h3>Finance App</h3>
+                    <p> - App to manage your finances.</p>
+                    <span class="btn-projects">
+                        <a href="https://0xb0b1.github.io/finance-app/" target="_blank">
+                            <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                        </a>
+                        <a href="https://github.com/0xb0b1/finance-app" target="_blank">
+                            <button class="live-button"><i class="fa fa-github"></i> github</button>
+                        </a>
+                    </span>
+                </div>
+
+                <div class="work__img">
+                    <h3>Worldtrip</h3>
+                    <p> - Worldtrip is an application to show you what every continent has to offer, Its most popular
+                        citites and more... We will be seeing how many languages they have, cities, and countries. And
+                        If you're thinking of traveling, you can take
+                        a look here..</p>
+                    <span class="btn-projects">
+                        <a href="#" target="_blank">
+                            <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                        </a>
+                        <a href="https://github.com/0xb0b1/worldtrip" target="_blank">
+                            <button class="live-button"><i class="fa fa-github"></i> source</button>
+                        </a>
+                    </span>
+                </div>
+                <div class="work__img">
+                    <h3>Note Taking App</h3>
+                    <p> - Simple Note Taking App.</p>
+                    <span class="btn-projects">
+                        <a href="https://0xb0b1.github.io/notes-app/" target="_blank">
+                            <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                        </a>
+                        <a href="https://github.com/0xb0b1/notes-app" target="_blank">
+                            <button class="live-button"><i class="fa fa-github"></i> source</button>
+                        </a>
+                    </span>
+                </div>
+                <div class="work__img">
+                    <h3>Book shelf</h3>
+                    <p> - App to Manage books. Built with Javascript & Bootstrap</p>
+                    <span class="btn-projects">
+                        <a href="https://0xb0b1.github.io/bookList/" target="_blank">
+                            <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                        </a>
+                        <a href="https://github.com/0xb0b1/bookList" target="_blank">
+                            <button class="live-button"><i class="fa fa-github"></i> source</button>
+                        </a>
+                    </span>
+                </div>
+                <div class="work__img">
+                    <h3>Todo List</h3>
+                    <p> - Todo App built with ReactJS & TypeScript & SASS.</p>
+                    <span class="btn-projects">
+                        <a href="https://paulo-vicente-todo-app.netlify.app/" target="_blank">
+                            <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                        </a>
+                        <a href="https://github.com/0xb0b1/todo-list-reactjs" target="_blank">
+                            <button class="live-button"><i class="fa fa-github"></i> source</button>
+                        </a>
+                    </span>
+                </div>
+                <div class="work__img">
+                    <h3>This Portfólio</h3>
+                    <p> - My personal portolio>
+                        <span class="btn-projects">
+                            <a href="https://paulo-vicente.netlify.app" target="_blank">
+                                <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                            </a>
+                            <a href="https://github.com/0xb0b1/paulo-vicente" target="_blank">
+                                <button class="live-button"><i class="fa fa-github"></i> source</button>
+                            </a>
+                        </span>
+                </div>
+                <div class="work__img">
+                    <h3>Music Organizer APP</h3>
+                    <p> - A Spotify like-app to organizer playlists>
+                        <span class="btn-projects">
+                            <a href="#" target="_blank">
+                                <button class="live-button"><i class="fa fa-link"></i> demo</button>
+                            </a>
+                            <a href="https://github.com/0xb0b1/music-organizer" target="_blank">
+                                <button class="live-button"><i class="fa fa-github"></i> source</button>
+                            </a>
+                        </span>
+                </div>
+
+            </article>
+
+            <a class="button" href="https://github.com/0xb0b1?tab=repositories" target="_blank" id="linkRepo">GitHub</a>
+        </section>
+
+        <!--Skills-->
+        <section class="section" id="skills">
+            <h2>Languages and Frameworks I use</h2>
+            <div>
+                <article class="skill_box">
+                    <img src="assets/image/logoHTMLeCSS.png" alt="HTML & CSS Logo" class="imageIcones skills__img" />
+                    <h2 class="skills__subtitle">HTML & CSS</h2>
+                </article>
+
+                <article class="skill_box">
+                    <img src="assets/image/logoJS.png" alt="JavaScript Logo" class="imageIcone skills__img" />
+                    <h2 class="skills__subtitle">JavaScript</h2>
+                </article>
+
+                <article class="skill_box">
+                    <img src="assets/image/logoSass.png" alt="Sass logo" class="imageIcone skills__img" />
+                    <h2 class="skills__subtitle">Sass</h2>
+                </article>
+
+                <article class="skill_box">
+                    <img src="assets/image/logoReactJS.png" alt="ReactJS logo" class="imageIcone skills__img" />
+                    <h2 class="skills__subtitle">ReactJS</h2>
+                </article>
+
+                <article class="skill_box">
+                    <img src="assets/image/logoNext.png" alt="NextJS logo" class="imageIcone skills__img" />
+                    <h2 class="skills__subtitle">Next.js</h2>
+                </article>
+
+                <article class="skill_box">
+                    <img src="assets/image/logoTypeScript.png" alt="TypeScript Logo" class="imageIcone skills__img" />
+                    <h2 class="skills__subtitle">TypeScript</h2>
+                </article>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <form action="" class="contact__input" id="contact" method="post" enctype="text/plain">
+            <fieldset id="contactField">
+                <div id="flexField">
+                    <div class="defaultField">
+                        <label>E-mail</label>
+                        <input name="email" type="email" class="fields" placeholder="Your e-mail" required>
+                    </div>
+
+                    <div class="defaultField" id="respS">
+                        <label>Name</label>
+                        <input name="name" type="text" class="fields" placeholder="Your Name" required>
+                    </div>
+                </div>
+
+                <div id="msgField">
+                    <label>Message</label>
+                    <textarea name="message" id="messageField" cols="30" rows="10" placeholder="Your Message"
+                        required></textarea>
+                </div>
+
+                <input class="send__content1" type="submit" value="Send" id="btn">
+
+            </fieldset>
+        </form>
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer title -->
+            <p class="footer__title">Paulo Vicente</p>
+            <!-- footer social links -->
+            <div class="footer__social">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/paulo-vicente-6abab0198" target="_blank"
+                    class="footer__icon"><i class='fab fa-linkedin-in'></i></a>
+                <a rel="noreferrer" href="https://github.com/0xb0b1" target="_blank" class="footer__icon"><i
+                        class='fab fa-github'></i></a>
+                <a rel="noreferrer" href="mailto:0xb37h0@protonmail.com" target="_blank" class="footer__icon"><i
+                        class='far fa-envelope'></i></a>
+                <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5593992456999" target="_blank"
+                    class="footer__icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            </div>
+            <!-- copyright -->
+            <p class="footer__copy">2021 ; Made with love by Paulo Vicente.</p>
+        </footer>
+
+        <!-- animation intro -->
+        <div class="intro">
+            <div class="intro-text">
+                <h1 class="hide">
+                    <span class="text">PAULO</span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text">VICENTE</span>
+                </h1>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+            integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+            crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
